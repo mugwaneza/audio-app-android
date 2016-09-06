@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="read.project.klab.readmytext" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+             ></activity>
+        <activity
+            android:name=".SavedVoice"
+             ></activity>
+        <activity
+            android:name=".SingleItemView_Bank"
+             ></activity> <activity
+            android:name=".SingleItemView_Hospital"
+             ></activity> <activity
+            android:name=".SingleItemView_Shop"
+             ></activity> <activity
+            android:name=".SingleItemView_Tax"
+             ></activity>
+    </application>
+
+</manifest>

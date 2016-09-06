@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingRight="40dp"
+    android:paddingLeft="40dp"
+    android:paddingTop="10dp"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="welcome"
+        android:id="@+id/textView2"
+        android:textColor="#1C1CF0"
+
+        android:layout_marginTop="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="67dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press here to start"
+        android:id="@+id/button"
+        android:background="#FF7E00"
+
+        android:textColor="#1C1CF0"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

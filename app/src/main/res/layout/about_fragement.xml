@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="40dp"
+    android:paddingBottom="40dp"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="E-voice is  Kinyarwanda text to voice system,this system will allow you to communicate  in the society,especially to the people who has disability of speaking, when  they request for a service,or asking questions in the classroom."
+        android:id="@+id/textView2"
+        android:textColor="#1C1CF0"
+
+        android:layout_marginTop="73dp"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>
